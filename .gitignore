@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Secret settings: never commit these
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# Supabase local files
+supabase/.branches
+supabase/.temp
+
+# Logs and system files
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
